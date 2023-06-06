@@ -1,0 +1,256 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: -0.015em;
+  background-color: rgb(190, 189, 189);
+}
+header {
+  background-color: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+ul {
+  list-style: none;
+}
+button {
+  cursor: pointer;
+}
+section {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+footer {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: rgb(168, 164, 164);
+}
+.container {
+  max-width: 1267.93px;
+  margin: 0 auto;
+}
+.logo {
+  font-family: 'Comfortaa', cursive;
+  color: #000000;
+  font-weight: 400;
+  font-size: 28.44px;
+  line-height: 1.3;
+}
+.full-navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navigation {
+  display: flex;
+  align-items: center;
+
+  color: #18a0fb;
+  font-weight: 500px;
+  font-size: 15px;
+  line-height: 1.2;
+}
+.navigation :first-child {
+  margin-right: 70.93px;
+}
+.navigation :nth-child(n + 2) {
+  margin-right: 40px;
+}
+.header-buttons {
+  display: flex;
+}
+.header-buttons :first-child {
+  margin-right: 12px;
+}
+.white-button {
+  display: block;
+
+  color: #18a0fb;
+  font-weight: 500px;
+  font-size: 15px;
+  line-height: 1.2;
+
+  background-color: #ffffff;
+  border: 1px solid #18a0fb;
+  border-radius: 6px;
+  padding: 11px 42px 11px 42px;
+}
+.blue-button {
+  display: block;
+
+  color: #ffffff;
+  font-weight: 500px;
+  font-size: 15px;
+  line-height: 1.2;
+
+  background-color: #18a0fb;
+  border: 1px solid #ffffff;
+  border-radius: 6px;
+  padding: 11px 42px 11px 42px;
+}
+.hero {
+  display: flex;
+  flex-direction: column;
+}
+.hero > h1 {
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 1.4;
+
+  width: 686px;
+  height: 160px;
+}
+.hero > button {
+  color: #ffffff;
+  background-color: #18a0fb;
+  width: 192px;
+  height: 52px;
+  padding: 15.3px 51.78px 15.7px 50.22px;
+  border: 1px solid #18a0fb;
+  border-radius: 6px;
+  margin-bottom: 72px;
+}
+.hero-image {
+  background-image: linear-gradient(#2f303a66, #2f303a66),
+    url(../images/hero-image.jpg);
+  max-width: 1680px;
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+  margin: auto;
+}
+.sub-hero-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 80px;
+}
+.sub-hero-top > h2 {
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 1.5;
+  margin-left: 84px;
+}
+.sub-hero-top img {
+  border-radius: 10%;
+}
+.sub-hero-bottom {
+  display: flex;
+  gap: 148px;
+}
+.sub-hero-header {
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 1.5;
+  width: 750px;
+  height: 144px;
+  margin-bottom: 60px;
+}
+.sub-hero-bottom h3 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.5;
+}
+.sub-hero-bottom img {
+  border-radius: 50%;
+}
+.sub-hero-bottom p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.7;
+  color: rgba(0, 0, 0, 0.8);
+}
+.sub-hero-bottom button {
+  color: #ffffff;
+  background-color: #18a0fb;
+  border: 1px solid #ffffff;
+  border-radius: 6px;
+  padding: 11px 42px 11px 42px;
+}
+.testimonial {
+  display: flex;
+}
+.testimonial-left {
+  display: block;
+}
+.testimonial-left h3 {
+  width: 1007px;
+  height: 100px;
+
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 1.4;
+  margin-right: 84px;
+}
+.testimonial-left p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.7;
+}
+.testimonial-image {
+  width: 209px;
+  height: 270px;
+  background-color: rgb(27, 25, 54);
+}
+.signup {
+  display: block;
+  text-align: center;
+  align-items: center;
+}
+.signup h2 {
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 1.5;
+}
+.signup p {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 1.4;
+  color: rgba(0, 0, 0, 0.8);
+}
+.signup-form {
+  width: 622px;
+  height: 439px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin: auto;
+  justify-content: center;
+  align-items: start;
+  padding-left: 64px;
+}
+.signup-form h4 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.5;
+}
+input {
+  height: 40px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  padding-left: 14px;
+}
+.names {
+  display: flex;
+}
+.names input {
+  margin-right: 43px;
+}
+input[type='email'],
+input[type='password'] {
+  padding-right: 257px;
+}
+.footer-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+.footer-top .blue-button {
+  margin-bottom: 14px;
+  width: 130px;
+  height: 40px;
+}
+.footer-bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
